@@ -10,70 +10,79 @@
     <title>Info</title>
 </head>
 <body>
-<div class="content py-5  bg-light">
-
+<div id="fullscreen_bg" class="fullscreen_bg"/>
+<form class="form-signin">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <span class="anchor" id="formUserEdit"></span>
-                <!-- form user info -->
-                <div class="card card-outline-secondary">
-                    <div class="card-header">
-                        <h3 class="mb-0">User Information</h3>
-                    </div>
-                    <div class="card-body">
-                        <form class="form" role="form" autocomplete="off">
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">First name</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="Jane">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel panel-primary">
+
+                        <h3 class="text-center">
+                            Update my information</h3>
+
+                        <div class="panel-body">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
+                            </span>
+                                    <input type="text" class="form-control" placeholder="First Name"/>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Last name</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="Bishop">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span
+                                            class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Last Name"/>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Email</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="email" value="email@gmail.com">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span
+                                            class="glyphicon glyphicon-envelope"></span></span>
+                                    <input type="text" class="form-control" placeholder="Email"/>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Username</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="text" value="janeuser">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span
+                                            class="glyphicon glyphicon-lock"></span></span>
+                                    <input type="password" class="form-control" placeholder="New Password"/>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Password</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="password" value="11111122333">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span
+                                            class="glyphicon glyphicon-home"></span></span>
+                                    <input type="text" class="form-control" placeholder="Address"/>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label">Confirm</label>
-                                <div class="col-lg-9">
-                                    <input class="form-control" type="password" value="11111122333">
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span
+                                            class="glyphicon glyphicon-calendar"></span></span>
+                                    <input type="text" class="form-control" placeholder="Age"/>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-lg-3 col-form-label form-control-label"></label>
-                                <div class="col-lg-9">
-                                    <input type="reset" class="btn btn-secondary" value="Cancel">
-                                    <input type="button" class="btn btn-primary" value="Save Changes">
-                                </div>
-                            </div>
-                        </form>
+
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                                Save
+                            </button>
+
+
+                        </div>
                     </div>
                 </div>
-                <!-- /form user info -->
-
             </div>
         </div>
     </div>
+</form>
+
 </div>
 </body>
 </html>
