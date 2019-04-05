@@ -4,6 +4,10 @@
     background-color: #777;
 }
 
+input{
+    color: black !important;
+}
+
 .badge-primary {
     background-color: #337ab7;
 }

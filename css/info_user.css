@@ -4,9 +4,7 @@ body {
 }
 
 .form-signin {
-    max-width: 280px;
-    padding: 15px;
-    margin: 100px;
+    width: 1200px;
     margin-top: 20px;
 }
 
@@ -22,7 +20,6 @@ body {
 }
 
 .form-control:focus {
-    background-color: rgb(50, 118, 177);
     border-color: rgb(40, 94, 142);
     color: rgb(255, 255, 255);
 }
